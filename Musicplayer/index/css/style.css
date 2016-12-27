@@ -1,0 +1,203 @@
+.all{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		right: 0px;
+		background-color: #d9ead3;
+		background-size: 100%;
+	}
+	
+	.musicplayer{
+		width:100%;
+		height:60%;
+		position: absolute;
+		left: 0px;
+		top: 38%;
+		text-align: center;
+		background-color: rgba(255,255,255,0.3);
+		border-radius:10px;
+		background-position: 0px -340px;
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+
+
+
+	.play_css{
+		width: 74px;
+		height: 74px;
+		position: absolute;
+		bottom: 10px;
+		left: 100px;
+
+		background:url(../image/player.png);
+		background-color:rgba(255,255,255,0);
+		background-position: -602px -2439px;
+		background-size: 1280% 1000%;
+		border-radius: 100px; 
+		border:none;
+		outline:none; 
+		cursor: pointer;
+		opacity: 0.7;	
+	}
+	.play_css:hover{
+		position: absolute;
+		bottom: 10.8px;
+		opacity: 1;
+	}
+	.pause_css{
+		width: 74px;
+		height: 74px;
+		position: absolute;
+		bottom: 10px;
+		left: 100px;
+
+		background:url(../image/player.png);
+		background-color:rgba(255,255,255,0);
+		background-position: -602px -2637px;
+		background-size: 1280% 1000%;
+		border-radius: 50px; 
+		border:none;
+		outline:none; 
+		cursor: pointer;
+		opacity: 0.7;
+	}
+	.pause_css:hover{
+		position: absolute;
+		bottom: 10.8px;
+		opacity: 1;
+		}
+	.next_one_css{
+		width: 74px;
+		height: 74px;
+		position: absolute;
+		bottom: 10px;
+		left: 190px;
+
+		background:url(../image/player.png);
+		background-color:rgba(255,255,255,0);
+		background-position: -562px -2735px;
+		background-size: 1200% 1000%;
+		border-radius: 50px; 
+		border:none;
+		outline:none; 
+		cursor: pointer;
+		opacity: 0.7;
+	}
+	.next_one_css:hover{
+		position: absolute;
+		bottom: 10.8px;
+		opacity: 1;
+		}
+	.previous_track_css{
+		width: 74px;
+		height: 74px;
+		position: absolute;
+		bottom: 10px;
+		left: 10px;
+
+		background:url(../image/player.png);
+		background-color:rgba(255,255,255,0);
+		background-position: -562px -2834px;
+		background-size: 1200% 1000%;
+		border-radius: 50px; 
+		border:none;
+		outline:none; 
+		cursor: pointer;
+		opacity: 0.7;
+	}
+	.previous_track_css:hover{
+		position: absolute;
+		bottom: 10.8px;
+		opacity: 1;
+		}
+
+	.stop_css{
+		width: 74px;
+		height: 74px;
+		position: absolute;
+		bottom: 10px;
+		left: 280px;
+
+		background:url(../image/player.png);
+		background-color:rgba(255,255,255,0);
+		background-position: -562px -2538px;
+		background-size: 1200% 1000%;
+		border-radius: 50px; 
+		border:none;
+		outline:none; 
+		cursor: pointer;
+		opacity: 0.7;
+	}
+	.stop_css:hover{
+		position: absolute;
+		bottom: 10.8px;
+		opacity: 1;
+		}
+
+	.progress_css{
+		width: 800px;
+		height: 15px;
+		position: absolute;
+		left: 380px;
+		bottom: 38px;	
+	}
+	.music_Buffer_css{
+    	width: 100%;  
+	    height: 20px;
+	    position: absolute;
+	    left: 0px;
+	    top: 0px;
+	    border-radius: 10px;        
+	}   
+		progress::-webkit-progress-bar { background:rgba(255,255,255,0); }
+		progress::-webkit-progress-value  { background: #2393DB; }
+	.drag_css{
+		width: 36px;
+		height: 25px;
+		position: absolute;
+		left: 362px;
+		bottom: 34px;
+		background-color:rgba(255,255,255,1);
+		border-radius: 50px; 
+		border:none;
+		outline:none;
+		cursor: pointer;
+		opacity: 0.7;
+	}
+	.drag_css:hover{
+		opacity: 0.9;
+		background-color: #2393DB;
+		width: 38px;
+		height: 26px;
+		bottom: 34px;
+		}
+	
+	
+	.time_css{
+		width: 6%;
+		height: 8%;
+		position: absolute;
+		left: 80%;
+		bottom: 30px;
+		background-color: rgba(255,255,255,0);
+		color: rgba(255,255,255,0.9);
+		font-weight:bold;
+		font-size: 200%;
+	}
+
+	.lrc_css{
+		width: 100%;
+		height: 40%;
+		position: absolute;
+		left: 0px;
+		bottom: 100px;
+		background-color:rgba(255,255,255,0);
+		color: rgba(255,255,255,0.9);
+		font-weight:bold;
+		font-size: 300%;
+		font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	}
+
